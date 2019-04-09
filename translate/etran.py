@@ -7,8 +7,8 @@ appid=''#自己的appid
 secretKey=''#自己的key
 
 def baidu_tran(content):
-    appid='20181222000251106'
-    secretKey='tU78OuVzBgT2aWe43yiy'
+    appid=''
+    secretKey=''
     httpClient=None
     myurl='/api/trans/vip/translate'#基础url
     q=content#输入的内容
